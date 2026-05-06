@@ -8,7 +8,7 @@
   {
     "name": "researcher",
     "payload": {
-      "sources": 0
+      "sources": 5
     }
   },
   {
@@ -32,7 +32,7 @@
   {
     "name": "writer",
     "payload": {
-      "sources": 0
+      "sources": 5
     }
   },
   {
