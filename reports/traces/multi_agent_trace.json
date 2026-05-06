@@ -1,0 +1,44 @@
+[
+  {
+    "name": "route",
+    "payload": {
+      "next": "researcher"
+    }
+  },
+  {
+    "name": "researcher",
+    "payload": {
+      "sources": 0
+    }
+  },
+  {
+    "name": "route",
+    "payload": {
+      "next": "analyst"
+    }
+  },
+  {
+    "name": "analyst",
+    "payload": {
+      "has_research_notes": true
+    }
+  },
+  {
+    "name": "route",
+    "payload": {
+      "next": "writer"
+    }
+  },
+  {
+    "name": "writer",
+    "payload": {
+      "sources": 0
+    }
+  },
+  {
+    "name": "route",
+    "payload": {
+      "next": "done"
+    }
+  }
+]
